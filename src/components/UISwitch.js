@@ -19,6 +19,7 @@ const Switch = styled.label(({ color, active }) => ({
   backgroundColor: active ? 'grey' : 'lightgrey',
   borderRadius: '7px',
   cursor: 'pointer',
+  boxShadow: '0 1px 1px rgba(0,0,0,.3) inset',
   transition: 'all .3s ease-in-out',
   '::before': {
     content: '""',
