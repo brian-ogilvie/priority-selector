@@ -18,6 +18,7 @@ const Switch = styled.label(({ color, active }) => ({
   zIndex: 1,
   backgroundColor: active ? 'grey' : 'lightgrey',
   borderRadius: '7px',
+  cursor: 'pointer',
   transition: 'all .3s ease-in-out',
   '::before': {
     content: '""',
